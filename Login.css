@@ -1,0 +1,131 @@
+input, button {
+    outline: none;
+    border: none;
+}
+
+.login-container {
+    width: 100%;
+    min-height: 100vh;
+    display: -webkit-box;   
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background: #33ccff;
+}
+
+.login-form-wrapper {
+    width: 960px;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 75px 130px 50px 95px;
+}
+
+.login-pic {
+    will-change: transform; 
+    width: 316px;
+}
+
+.login-pic img {
+    width: 100%;
+}
+.login-form {
+    width: 290px;
+}
+.login-form h1 {
+    font-weight: 100;
+    margin-bottom: 40px;
+}
+
+/* styles */
+.wrap-input {
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    margin-bottom: 10px;
+}
+.input-field {
+    font-size: 15px;
+    line-height: 1.5;
+    color: #666666;
+    display: block;
+    width: 100%;
+    background: #e6e6e6;
+    height: 50px;
+    border-radius: 25px;
+    padding: 0 15px;
+}
+
+.container-login-form-btn {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px;
+}
+.login-form-btn {
+    font-size: 15px;
+    line-height: 1.5;
+    color: #fff;
+    text-transform: uppercase;
+    width: 100%;
+    height: 50px;
+    border-radius: 25px;
+    background: #57b846;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 25px;
+}
+.error {
+    margin-bottom: 15px;
+    text-align: left;
+    font-style: italic;
+}
+.error p {
+    font-size: 0.8rem;
+    color: #ff0000;
+}
+@media (max-width: 576px) {
+    .login-form-wrapper {
+        padding: 100px 15px 33px 15px;
+    }
+}
+
+@media (max-width: 992px) {
+    .login-form-wrapper {
+        padding: 80px 90px 50px 85px;
+        margin: 50px;
+    }
+    
+    .login-pic {
+        width: 35%;
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    .login-pic {        
+        margin: 0 auto;
+    }
+    .login-form-wrapper {
+        padding: 50px 35px 33px 35px;
+        margin: 30px;
+    }
+    .login-form {
+        width: 100%;
+    }
+    
+    
+}
